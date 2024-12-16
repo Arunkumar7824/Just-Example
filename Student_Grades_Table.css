@@ -1,0 +1,33 @@
+#tab {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid blueviolet;
+}
+
+#tab th{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: blueviolet;
+    color: white;
+}
+#tab td{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+.tab_r {
+    background-color:rgba(162, 0, 211, 0.747) ;
+}
+.tab_nr{
+    background-color: rgba(137, 43, 226, 0.767);
+}
+
+tr:hover{
+    background-color: darkorchid;
+}
+th, td{
+    border-bottom: 1px solid white;
+}
